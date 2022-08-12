@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <title>Personal Portfolio Website</title>
+</head>
+
+<body>
+  <!-- navbar section starts here -->
+  <div id="header">
+    <div class="container">
+      <nav>
+        <p><span>A</span>rchit</p>
+        <ul id="sidemenu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class='fas fa-times' onclick="closemenu()"></i>
+        </ul>
+        <i class='fas fa-bars' onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <div class="name">
+          <p>Software <span>Developer</span></p>
+          <h1>Hi! I'm <span>Archit Gupta</span></h1>
+          <p class="content">I consider myself a ‘forever student,’ eager to both build on my academic foundations in computer Science and tune with the latest technologies in the market.</p>
+            <p class="content">My hunger for knowledge and determination to turn information into action has contributed to my most recent websites projects and trying to make them completely responsive.</p>
+            <p class="content">I believe mindfulness in the workplace is key to success - a tenet I lives out through my interests in Yoga, meditation, music. I currently appointed as a Assosiate Software Engineer in Mphasis and is always interested in a challenge.</p>
+        </div>
+        <img src="myphoto4.jpg" alt="">
+      </div>
+    </div>
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col1"><img src="myphoto3.jpg" alt=""></div>
+          <div class="col2">
+            <h1>About <span> Me</span></h1>
+            <p></p>
+            <div class="aboutme-titles">
+              <p class="title-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="title-links" onclick="opentab('experience')">Experience</p>
+              <p class="title-links" onclick="opentab('education')">Education</p>
+              <p class="title-links" onclick="opentab('certification')">Certifications</p>
+            </div>
+            
+            <div class="title-contents active-tab" id="skills">
+              <ul>
+                <li>Adaptability</li>
+                <li>Teamwork</li>
+                <li>C</li>
+                <li>Java</li>
+                <li>HTML,CSS,Bootstrap,Javascript</li>
+                <li>SQL and RDBMS</li>
+                <li>PHP</li>
+                <li>C# .Net Framework</li>
+              </ul>
+            </div>
+
+            <div class="title-contents" id="experience">
+              <ul>
+                <li>Fresher</li>
+                <li>Fresher</li>
+                <li>Fresher</li>
+              </ul>
+            </div>
+
+            <div class="title-contents" id="education">
+              <ul>
+                <li><span>Ajay Kumar Garg Engineering College(AKGEC),Ghaziabad,UP</span></li>
+                <li>MCA(2020-22)<br>84%</li>
+                <li>Relevant coursework: AI,Cloud Computing,Machine Learning,<br>IoT,Data Analytics</li>
+                <li><span>Institute Of Management Studies, Roorkee</span></li>
+                <li>BCA(2017-20)<br>80.35%</li>
+                <li>Relevant coursework: Object-oriented Programming,<br> Data Structures and Algorithms, Database Development</li>
+                <li><span>St.Thomas Academy,Saharanpur,UP</span>
+                  <li>12<sup>th</sup>
+                <br>80.8%</li>    
+                <li><span>Rainbow School,Saharanpur,UP</span>
+                  <li>10<sup>th</sup>
+                <br>87.40%</li> 
+              </ul>
+            </div>
+            
+            <div class="title-contents" id="certification">
+              <ul>
+                <li><a href="https://www.udemy.com/certificate/UC-e07b5127-eb4e-4bc7-8ce3-e1bd14d42fd7/" target="_blank">HTML and CSS <span>|</span> Udemy <span>|</span> 23 July,2022</a></li>
+                <li><a href="https://www.udemy.com/certificate/UC-4444172c-bb45-49ba-bd51-f063efa06061/" target="_blank">Javascript <span>|</span> Udemy <span>|</span> 29 July,2022</a></li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="services">
+      <div class="container">
+        <h1 class="services-titles">My <span>Services</span></h1>
+        <div class="services-list">
+          <div>
+            <i class="fas fa-code"></i>
+            <h2>Web Design</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium porro cupiditate debitis placeat.
+              Atque placeat suscipit totam amet hic, officiis magnam modi quibusdam commodi, tenetur fugit molestias
+              aliquam, enim provident.</p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fas fa-code"></i>
+            <h2>Java Develepment</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium porro cupiditate debitis placeat.
+              Atque placeat suscipit totam amet hic, officiis magnam modi quibusdam commodi, tenetur fugit molestias
+              aliquam, enim provident.</p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fas fa-code"></i>
+            <h2>Data Scientist</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium porro cupiditate debitis placeat.
+              Atque placeat suscipit totam amet hic, officiis magnam modi quibusdam commodi, tenetur fugit molestias
+              aliquam, enim provident.</p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="portfolio-titles">My <span>Work</span></h1>
+        <div class="projects-list">
+          <div class="project">
+            <img src="project1.jpg" alt="">
+            <div class="layer">
+              <h3>Events Management Website</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, fuga!</p>
+              <a href="#"><i class='fas fa-link'></i></a>
+            </div>
+          </div>
+          <div class="project">
+            <img src="project2.png" alt="">
+            <div class="layer">
+              <h3>Pharmacy Management System</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, fuga!</p>
+              <a href="#"><i class='fas fa-link'></i></a>
+            </div>
+          </div>
+          <div class="project">
+            <img src="project3.jpg" alt="">
+            <div class="layer">
+              <h3>Pending</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, fuga!</p>
+              <a href="#"><i class='fas fa-link'></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="contact-titles">Contact <span>Me</span></h1>
+            <p><i class='fa fa-envelope'></i>architji172@gmail.com</p>
+            <p><i class='fa fa-phone'></i>9690XXXXXX</p>
+            <div class="social-icons">
+              <a href="#"><i class='fa fa-facebook'></i></a>
+              <a href="https://www.instagram.com/invites/contact/?i=17vrev4gtj57c&utm_content=h950xs9" target="_blank"><i class='fa fa-instagram'></i></a>
+              <a href="https://www.linkedin.com/in/archit-gupta-98a3991b4/" target="_blank"><i class='fa fa-linkedin'></i></a>
+              <a href="https://github.com/Writecodes" target="_blank"><i class='fa fa-github'></i></a>
+              <a href="https://telegram.org/dl" target="_blank"><i class='fa fa-telegram'></i></a>
+            </div>
+            <a href="Archit_Resume.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email ID" required>
+              <textarea name="message" rows="10" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="display-msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Made By | Archit Gupta</p>
+      </div>
+    </div>
+    <script>
+      var titlelinks = document.getElementsByClassName("title-links");
+      var titlecontents = document.getElementsByClassName("title-contents");
+      function opentab(titlename) {
+        for (titlelink of titlelinks) {
+          titlelink.classList.remove("active-link");
+        }
+        for (titlecontent of titlecontents) {
+          titlecontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(titlename).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var side_menu=document.getElementById("sidemenu");
+      function openmenu(){
+        side_menu.style.right="0";
+      }
+      function closemenu(){
+        side_menu.style.right="-200px";
+      }
+    </script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycby43hpxvM6DBw8IH1XiHN4hbBGgF9KD3hquLGaI7FyMkcMKIBE4Rs4WEGiP9GmWyANdgw/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const display_msg=document.getElementById("display-msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        display_msg.innerHTML="Message sent successfully"
+        setTimeout(function(){
+          display_msg.innerHTML=""
+        },4000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+
+</html>
